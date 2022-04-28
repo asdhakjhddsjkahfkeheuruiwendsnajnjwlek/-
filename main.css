@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 0;
+}
+body{
+	color: #686868;
+	font-size: 12px;
+	font-family: '微软雅黑';
+}
+a{
+	color: #686868;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}/*前期准备*/
+.header{
+	width: 960px;
+	height: 65px;
+	margin: 0 auto;
+	background-color: red;
+	margin: 20 0 0 20;
+	background-color: black;
+}
+.logo{
+	width: 160px;
+	height: 22px;
+	float: left;
+	background-color: red;
+	opacity: 0.5;
+	background-color: yellow;
+}
+.logo a{
+	width: 160px;
+	height: 22px;
+	display: block;
+}
+.links .a2{
+	margin: 0 15px;
+}
+.links{
+	width: 250px;
+	height: 15px;
+	float: right;
+	margin-top: 33px;
+	/*background-color: purple;*/
+	text-align: center;
+	line-height: 15px;
+}
+.nav{
+	width: 960px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: right;
+}
+.nav li{
+	width: 100px;
+	height: 40px;
+	float: right;
+	font-family: '微软雅黑';
+	font-weight: bolder;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	left: 200px;
+	cursor: pointer;
+	margin-right: 40px;
+}
+.nav a{
+	color: #1a1a1a;
+}
+.nav .fir{
+	width: 73px;
+	background-color: skyblue;
+} 
+.nav li a{
+	color: #fff;
+}
+.nav li:hover{
+	background: #f40;
+	border-radius: 30px;
+}
+.banner{
+	width: 960px;
+	height: 383px;
+	margin: 0 auto;
+	background-color: #0000ff;
+}
+.news{
+	width: 958px;
+	height: 28px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	background-color: #00ff00;
+}
+.news p{
+	float: left;
+	margin-left: 20px;
+	height: 28px;
+	line-height: 28px;
+}
+.news span{
+	float: right;
+	margin-right: 16px;
+	height: 28px;
+	line-height: 28px;
+}
+.content{
+	width: 960px;
+	height: 220px;
+	margin: 0 auto;
+	background-color: skyblue;
+}
+.content div{
+	width: 311px;
+	height: 220px;
+	background: red;
+	float: left;
+}
+.content .left{
+	background: green;
+}
+.content .center{
+	margin: 0 13px;
+	background: yellow;/*放图*/
+}
+.content .right{
+	background: #00ff00;
+}
+.footer{
+	width: 960px;
+	height: 30px;
+	border: 1px solid #ccc;
+	margin: 36px auto;
+}
+.footer p{
+	float: left;
+	margin-left:20px;
+}
+/*对齐方式2种*/
+/*.footer p a{
+	line-height: 30px;
+	height: 30pxs;
+	display: inline-block;
+}*/
+.footer p a{
+	margin:0 15px;
+	line-height: 30px;
+	height: 30px;
+	display: inline-block;
+}
+.footer span{
+	float: right;
+	margin-right:20px;
+	line-height: 30px;
+	height: 30px;
+	color: purple;
+}
